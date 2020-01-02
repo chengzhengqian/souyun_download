@@ -27,4 +27,7 @@ def download_book(url,book_name):
         download_file(book_url,target_file)
 
 
-download_book(url,book_name)        
+# download_book(url,book_name)        
+download_book("https://sou-yun.cn/eBookIndex.aspx?id=8543","历代诗话-清-吴景旭")
+
+download_book("https://sou-yun.cn/eBookIndex.aspx?id=1447","渔洋诗话-清-王士禛")
